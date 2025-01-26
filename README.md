@@ -32,6 +32,20 @@ All standard llama.cpp quantization methods are supported:
 - CMake
 - Git
 
+## Configuration
+
+Before running the notebook, update these 3 required variables:
+
+```python
+# The Hugging Face model ID to convert (e.g., "mistralai/Mistral-7B-v0.1")
+MODEL_ID = "your-model-id-here"
+
+# Your Hugging Face username
+USERNAME = "your-username"
+
+# Your Hugging Face API token from https://huggingface.co/settings/tokens
+HF_TOKEN = "your-token-here"
+```
 ## Quick Start
 
 1. Clone this repository
